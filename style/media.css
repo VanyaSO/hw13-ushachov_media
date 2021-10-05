@@ -15,6 +15,14 @@
         justify-content: center;
     }
 
+    main .banner__button__wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    main .banner{
+        background-size: revert;
+    }
 }
 
 @media(max-width: 768px) {
@@ -31,6 +39,11 @@
         margin-top: 50px;
     }
 
+    main .services__item__txt{
+        font-size: 14px;
+        font-weight: bold;
+    }
+
 }
 
 @media(max-width: 730px) {
@@ -38,13 +51,20 @@
         display: flex;
         justify-content: center;
     }
-
-
+    main .banner__button__wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    main .banner__contan__img{
+        max-width: 300px;
+    }
+    main .banner__contan__txt{
+        max-width: 500px;
+    }
 }
 
-@media(max-width: 576px) {
+@media(max-width: 626px) {
     header{
         display: none;
     }
-
 }
